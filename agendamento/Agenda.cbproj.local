@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/03/27 14:42:18.000.830,=C:\Users\Antoinio Katerça\Documents\Embarcadero\Studio\Projects\agendamento\Unit1.cpp</Transaction>
+    <Transaction>2019/03/27 15:08:14.000.524,C:\Users\Antoinio Katerça\Documents\Embarcadero\Studio\Projects\agendamento\Unit1.h=C:\Users\Antoinio Katerça\Documents\Embarcadero\Studio\Projects\agendamento\UnitTarefa.h</Transaction>
+    <Transaction>2019/03/27 15:08:14.000.524,C:\Users\Antoinio Katerça\Documents\Embarcadero\Studio\Projects\agendamento\Unit1.fmx=C:\Users\Antoinio Katerça\Documents\Embarcadero\Studio\Projects\agendamento\UnitTarefa.fmx</Transaction>
+    <Transaction>2019/03/27 15:08:14.000.524,C:\Users\Antoinio Katerça\Documents\Embarcadero\Studio\Projects\agendamento\Unit1.cpp=C:\Users\Antoinio Katerça\Documents\Embarcadero\Studio\Projects\agendamento\UnitTarefa.cpp</Transaction>
+    <Transaction>2019/04/03 11:43:44.000.198,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\Unit2.cpp</Transaction>
+    <Transaction>2019/04/03 11:55:39.000.899,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\Unit2.fmx=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\UnitSobre.fmx</Transaction>
+    <Transaction>2019/04/03 11:55:39.000.898,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\Unit2.cpp=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\UnitSobre.cpp</Transaction>
+    <Transaction>2019/04/03 11:55:39.000.899,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\Unit2.h=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\UnitSobre.h</Transaction>
+    <Transaction>2019/04/03 16:08:56.000.871,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\Unit2.cpp</Transaction>
+    <Transaction>2019/04/03 17:33:19.000.256,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\FireDAC_SQLite.cbproj=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\Agenda.cbproj</Transaction>
+    <Transaction>2019/04/09 16:19:13.000.376,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\Unit3.cpp</Transaction>
+    <Transaction>2019/04/09 16:21:01.000.217,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\Unit3.cpp=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\UnitMaps.cpp</Transaction>
+    <Transaction>2019/04/09 16:21:01.000.217,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\Unit3.fmx=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\UnitMaps.fmx</Transaction>
+    <Transaction>2019/04/09 16:21:01.000.217,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\Unit3.h=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\agendamento\UnitMaps.h</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="47b8aa43"/>
+	</ActiveMobileDevice>
+</BorlandProject>

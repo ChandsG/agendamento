@@ -1,0 +1,28 @@
+object FormMps: TFormMps
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 480
+  ClientWidth = 282
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object WebBrowser1: TWebBrowser
+    Align = Client
+    Size.Width = 282.000000000000000000
+    Size.Height = 440.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    Align = Bottom
+    Position.Y = 440.000000000000000000
+    Size.Width = 282.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Voltar'
+    OnClick = Button1Click
+  end
+end

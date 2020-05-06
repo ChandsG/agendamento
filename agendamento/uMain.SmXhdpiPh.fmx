@@ -1,0 +1,36 @@
+inherited FireDAC_SQLiteForm_SmXhdpiPh: TFireDAC_SQLiteForm_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 0
+  inherited ToolBar1: TToolBar
+    Size.Width = 250.000000000000000000
+    inherited btnAdd: TButton
+      Position.X = 197.000000000000000000
+    end
+    inherited Title: TLabel
+      Size.Width = 250.000000000000000000
+    end
+  end
+  inherited ListBox1: TListBox
+    Opacity = 0.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 231.000000000000000000
+    Viewport.Width = 250.000000000000000000
+    Viewport.Height = 231.000000000000000000
+  end
+  inherited Button1: TButton
+    Position.Y = 328.000000000000000000
+    Size.Width = 250.000000000000000000
+  end
+  inherited Layout1: TLayout
+    Size.Width = 250.000000000000000000
+    inherited Button2: TButton
+      Position.X = 202.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+    inherited Edit1: TEdit
+      Size.Height = 32.000000000000000000
+    end
+  end
+end

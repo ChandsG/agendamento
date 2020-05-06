@@ -1,0 +1,155 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 498
+  ClientWidth = 284
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 284.000000000000000000
+    Size.Height = 498.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 280.000000000000000000
+    Viewport.Height = 494.000000000000000000
+    object Label2: TLabel
+      Align = Top
+      Position.Y = 254.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Descri'#231#227'o'
+      TabOrder = 0
+    end
+    object DateEditData: TDateEdit
+      Date = 43551.000000000000000000
+      Align = Top
+      Position.Y = 83.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object Label3: TLabel
+      Align = Top
+      Position.Y = 49.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Data'
+      TabOrder = 2
+    end
+    object MemoDescricao: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      StyledSettings = [Family, Size, Style]
+      TextSettings.WordWrap = True
+      Align = Client
+      Size.Width = 280.000000000000000000
+      Size.Height = 120.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Viewport.Width = 276.000000000000000000
+      Viewport.Height = 116.000000000000000000
+    end
+    object TimeEditHora: TTimeEdit
+      Time = 0.669444444444444400
+      Align = Top
+      Position.Y = 139.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+    end
+    object Label4: TLabel
+      Align = Top
+      Position.Y = 105.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Hora'
+      TabOrder = 5
+    end
+    object ButtonAlterar: TButton
+      Align = Bottom
+      StyledSettings = [Family, FontColor]
+      Position.Y = 447.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 47.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Text = 'GUADAR'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = ButtonAlterarClick
+    end
+    object Text1: TText
+      Align = Top
+      Size.Width = 280.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Mostar/Editar Agenda'
+    end
+    object EditLocal: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 8
+      Position.Y = 185.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label5: TLabel
+      Align = Top
+      Position.Y = 161.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Local'
+      TabOrder = 9
+    end
+    object Label6: TLabel
+      Align = Top
+      Position.Y = 207.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Dura'#231#227'o em horas'
+      TabOrder = 10
+    end
+    object TrackBarLocal: TTrackBar
+      Align = Top
+      CanParentFocus = True
+      Max = 6.000000000000000000
+      Min = 1.000000000000000000
+      Orientation = Horizontal
+      Position.Y = 235.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      Value = 1.000000000000000000
+    end
+    object CornerButton1: TCornerButton
+      Align = Bottom
+      Position.Y = 408.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 280.000000000000000000
+      Size.Height = 39.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      Text = 'Localiza'#231#227'o em tempo real'
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = CornerButton1Click
+    end
+  end
+end
